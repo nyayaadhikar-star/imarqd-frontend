@@ -1,0 +1,13 @@
+{
+  "expo": {
+    "name": "Klyvo",
+    "slug": "klyvo",
+    "scheme": "klyvo",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "platforms": ["ios", "android", "web"],
+    "assetBundlePatterns": ["**/*"]
+  }
+}
+
+

@@ -1,0 +1,13 @@
+version: "3.8"
+
+services:
+  api:
+    build:
+      context: ../../apps/api
+    ports:
+      - "8000:8000"
+    env_file:
+      - ../../apps/api/.env.example
+    restart: unless-stopped
+
+

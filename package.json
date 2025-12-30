@@ -1,0 +1,17 @@
+{
+  "name": "klyvo",
+  "private": true,
+  "workspaces": [
+    "apps/web",
+    "apps/mobile",
+    "packages/*"
+  ],
+  "scripts": {
+    "web:dev": "npm --workspace @klyvo/web run dev",
+    "web:build": "npm --workspace @klyvo/web run build",
+    "web:preview": "npm --workspace @klyvo/web run preview",
+    "mobile:start": "npm --workspace @klyvo/mobile run start"
+  }
+}
+
+

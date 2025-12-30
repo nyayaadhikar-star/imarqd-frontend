@@ -1,0 +1,77 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "C:\\Users\\Bhaskar Pathak\\OneDrive\\Desktop\\klyvo\\apps\\api\\chain\\contracts\\ProofRegistry.sol": {
+      "lastModificationDate": 1761581864883,
+      "contentHash": "3e1f6a4c45be1a8a055cf38a93aae15c",
+      "sourceName": "chain/contracts/ProofRegistry.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "ProofRegistry"
+      ]
+    },
+    "C:\\Users\\Bhaskar Pathak\\OneDrive\\Desktop\\klyvo\\apps\\api\\chain\\contracts\\ProofRegistryV2.sol": {
+      "lastModificationDate": 1761593031866,
+      "contentHash": "d708291bd951f35c3949aa5bd8d8657f",
+      "sourceName": "chain/contracts/ProofRegistryV2.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.24"
+      ],
+      "artifacts": [
+        "ProofRegistryV2"
+      ]
+    }
+  }
+}

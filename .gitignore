@@ -1,0 +1,37 @@
+# Node / JS
+node_modules/
+dist/
+build/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Results / outputs
+results/
+output/
+tmp/
+
+# Media files
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.mp4
+*.mov
+*.avi
+*.webm
+
+# Documents
+*.pdf
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Secrets
+.env

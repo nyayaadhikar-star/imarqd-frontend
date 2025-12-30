@@ -1,0 +1,25 @@
+{
+  "name": "klyvo-chain",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "clean": "rimraf artifacts cache",
+    "build": "hardhat compile",
+    "test": "hardhat test",
+    "deploy:amoy": "hardhat run scripts/deploy.ts --network amoy",
+    "deploy:v2:amoy": "hardhat run scripts/deploy_v2.ts --network amoy",
+    "deploy:mumbai": "hardhat run scripts/deploy.ts --network mumbai",
+    "verify:amoy": "hardhat verify --network amoy $(cat artifacts/.last_deploy_addr)"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "@nomicfoundation/hardhat-verify": "^2.1.1",
+    "dotenv": "^16.4.5",
+    "hardhat": "^2.22.10",
+    "rimraf": "^6.0.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  }
+}
+
+
